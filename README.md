@@ -35,3 +35,13 @@ Released: 04 Jun 2004"
 
 ==============
 You can try Batman , Superman ...any movies list and get details of any movie like name, directorname, starcast and release date of the movie
+
+In App.js:
+
+useState is used to manage the state of movies and searchTerm.
+useEffect is used to trigger the initial search for movies when the component mounts.
+
+In MovieCard.jsx:
+
+useState is used to manage the state of isOpen (to control the modal) and details (to store additional movie details fetched from the API).
+useEffect is not used directly in MovieCard.jsx, but it's utilized within the openModal function to fetch additional movie details when the modal is opened.
