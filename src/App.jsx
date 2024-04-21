@@ -22,7 +22,8 @@ function App() {
   };
 
   useEffect(() => {
-    searchMovies("Harry Potter");
+  searchMovies('Frozen');
+  //  searchMovies("Harry Potter");//
   }, []);
 
   return (
