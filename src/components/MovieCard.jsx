@@ -7,7 +7,7 @@ const MovieCard = ({ movie: { imdbID, Year, Poster, Title, Type } }) => {
     const [details, setDetails] = useState(null);
 
     const openModal = async () => {
-        const response = await fetch(`http://www.omdbapi.com/?i=${imdbID}&apikey=c546c814`);
+        const response = await fetch(`https://www.omdbapi.com/?i=${imdbID}&apikey=c546c814`);
         const data = await response.json();
         setDetails(data);
         setIsOpen(true);
