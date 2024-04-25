@@ -45,3 +45,7 @@ In MovieCard.jsx:
 
 useState is used to manage the state of isOpen (to control the modal) and details (to store additional movie details fetched from the API).
 useEffect is not used directly in MovieCard.jsx, but it's utilized within the openModal function to fetch additional movie details when the modal is opened.
+
+check this frontend project on -https://exquisite-figolla-01ee9b.netlify.app/
+check this backend project on -https://disneymoviecharacters-sba319.onrender.com/
+
